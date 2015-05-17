@@ -1,0 +1,229 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	state_lab.cpp	/^enum State   { A, B, C };$/;"	e	enum:State	file:
+Action	command_lab.cpp	/^enum Action { unarchive, transfer, compress };$/;"	g	file:
+ArrayImplementation	bridge_lab.cpp	/^enum ImplementationType { ArrayImplementation, ListImplementation };$/;"	e	enum:ImplementationType	file:
+AttorneyGeneral	factoryMethod_lab.cpp	/^class AttorneyGeneral : public FederalFraudvillian {$/;"	c	file:
+B	state_lab.cpp	/^enum State   { A, B, C };$/;"	e	enum:State	file:
+BST	iterator_lab.cpp	/^   BST() {$/;"	f	class:BST
+BST	iterator_lab.cpp	/^class BST {$/;"	c	file:
+C	state_lab.cpp	/^enum State   { A, B, C };$/;"	e	enum:State	file:
+Client	visitor_lab.cpp	/^class Client {$/;"	c	file:
+Command	command_lab.cpp	/^   Command( File* f, Action a ) { receiver = f; action = a; }$/;"	f	struct:Command
+Command	command_lab.cpp	/^struct Command {$/;"	s	file:
+Component	visitor_lab.cpp	/^class Component {$/;"	c	file:
+Composite	composite_lab.cpp	/^   Composite( int val ) : value(val), type(INTERIOR)  { total = 0; }$/;"	f	class:Composite
+Composite	composite_lab.cpp	/^class Composite {$/;"	c	file:
+Composite	visitor_lab.cpp	/^class Composite : public Component {$/;"	c	file:
+Composite	visitor_lab.cpp	/^   Composite()                    { index = 0; }$/;"	f	class:Composite
+CompositeT	visitor_lab.cpp	/^enum compType { PrimitiveT, LinkT, CompositeT };$/;"	e	enum:compType	file:
+DataEntry	strategy_lab.cpp	/^class DataEntry {$/;"	c	file:
+Dime	chain_lab.cpp	/^   Dime() : Slot( 10 ) { }$/;"	f	class:Dime
+Dime	chain_lab.cpp	/^class Dime : public Slot {$/;"	c	file:
+Factory	factorLab.cpp	/^class Factory$/;"	c	file:
+FederalFraudvillian	factoryMethod_lab.cpp	/^   FederalFraudvillian( char* pp = "Democrat" ) { strcpy( party, pp ); }$/;"	f	class:FederalFraudvillian
+FederalFraudvillian	factoryMethod_lab.cpp	/^class FederalFraudvillian {$/;"	c	file:
+File	command_lab.cpp	/^   File( char* n ) { strcpy( name_, n ); }$/;"	f	class:File
+File	command_lab.cpp	/^class File {$/;"	c	file:
+Function	decorator_lab.cpp	/^   Function() {$/;"	f	class:Function
+Function	decorator_lab.cpp	/^class Function {$/;"	c	file:
+HighCut	decorator_lab.cpp	/^class HighCut : virtual public Function {$/;"	c	file:
+HighCut	decorator_lab.cpp	/^   HighCut( int max ) {$/;"	f	class:HighCut
+INTERIOR	composite_lab.cpp	/^enum NodeType { LEAF, INTERIOR };$/;"	e	enum:NodeType	file:
+ImplementationType	bridge_lab.cpp	/^enum ImplementationType { ArrayImplementation, ListImplementation };$/;"	g	file:
+LEAF	composite_lab.cpp	/^enum NodeType { LEAF, INTERIOR };$/;"	e	enum:NodeType	file:
+Link	visitor_lab.cpp	/^   Link( Component& ele ) : linkElement(ele)  { }$/;"	f	class:Link
+Link	visitor_lab.cpp	/^class Link : public Component {$/;"	c	file:
+LinkT	visitor_lab.cpp	/^enum compType { PrimitiveT, LinkT, CompositeT };$/;"	e	enum:compType	file:
+ListImp	bridge_lab.cpp	/^ListImp::ListImp() { _head = NULL; }$/;"	f	class:ListImp
+ListImp	bridge_lab.cpp	/^class ListImp {$/;"	c	file:
+ListImplementation	bridge_lab.cpp	/^enum ImplementationType { ArrayImplementation, ListImplementation };$/;"	e	enum:ImplementationType	file:
+LowCut	decorator_lab.cpp	/^   LowCut( int min ) {$/;"	f	class:LowCut
+LowCut	decorator_lab.cpp	/^class LowCut : virtual public Function {$/;"	c	file:
+Message	state_lab.cpp	/^enum Message { on, off, ack };$/;"	g	file:
+MiddlePass	decorator_lab.cpp	/^   MiddlePass( int min, int max ) : LowCut(min), HighCut(max) { }$/;"	f	class:MiddlePass
+MiddlePass	decorator_lab.cpp	/^class MiddlePass : public LowCut, public HighCut {$/;"	c	file:
+MinorityPartyCongressPerson	factoryMethod_lab.cpp	/^class MinorityPartyCongressPerson : public FederalFraudvillian {$/;"	c	file:
+Nickel	chain_lab.cpp	/^   Nickel() : Slot( 5 ) { }$/;"	f	class:Nickel
+Nickel	chain_lab.cpp	/^class Nickel : public Slot {$/;"	c	file:
+Node	bridge_lab.cpp	/^Node::Node( int val, Node* next ) {$/;"	f	class:Node
+Node	bridge_lab.cpp	/^class Node {$/;"	c	file:
+Node	iterator_lab.cpp	/^   Node() { left = right = 0; }$/;"	f	struct:Node
+Node	iterator_lab.cpp	/^struct Node {$/;"	s	file:
+NodeType	composite_lab.cpp	/^enum NodeType { LEAF, INTERIOR };$/;"	g	file:
+NtFactory	factorLab.cpp	/^class NtFactory : public Factory $/;"	c	file:
+Penny	chain_lab.cpp	/^   Penny() : Slot( 1 ) { }$/;"	f	class:Penny
+Penny	chain_lab.cpp	/^class Penny : public Slot {$/;"	c	file:
+President	factoryMethod_lab.cpp	/^class President : public FederalFraudvillian {$/;"	c	file:
+Primitive	composite_lab.cpp	/^   Primitive( int val ) : value(val), type(LEAF)  { }$/;"	f	class:Primitive
+Primitive	composite_lab.cpp	/^class Primitive {$/;"	c	file:
+Primitive	visitor_lab.cpp	/^   Primitive( int id )   { identity = id; }$/;"	f	class:Primitive
+Primitive	visitor_lab.cpp	/^class Primitive : public Component {$/;"	c	file:
+PrimitiveT	visitor_lab.cpp	/^enum compType { PrimitiveT, LinkT, CompositeT };$/;"	e	enum:compType	file:
+Quarter	chain_lab.cpp	/^   Quarter() : Slot( 25 ) { }$/;"	f	class:Quarter
+Quarter	chain_lab.cpp	/^class Quarter : public Slot {$/;"	c	file:
+Queue	adapter_lab.cpp	/^class Queue {$/;"	c	file:
+Queue	command_lab.cpp	/^   Queue() {$/;"	f	class:Queue
+Queue	command_lab.cpp	/^class Queue {$/;"	c	file:
+SIZE	command_lab.cpp	/^   enum { SIZE = 10 };$/;"	e	enum:Queue::__anon1	file:
+Slot	chain_lab.cpp	/^   Slot( int val ) {$/;"	f	class:Slot
+Slot	chain_lab.cpp	/^class Slot {$/;"	c	file:
+Stack	adapter_lab.cpp	/^typedef StackStruct Stack;$/;"	t	file:
+Stack	bridge_lab.cpp	/^Stack::Stack( int size ) {$/;"	f	class:Stack
+Stack	bridge_lab.cpp	/^class Stack {$/;"	c	file:
+StackStruct	adapter_lab.cpp	/^struct StackStruct {$/;"	s	file:
+State	state_lab.cpp	/^enum State   { A, B, C };$/;"	g	file:
+String	proxy_lab.cpp	/^   String( String& str ) {$/;"	f	class:String
+String	proxy_lab.cpp	/^   String( const char* in ) {$/;"	f	class:String
+String	proxy_lab.cpp	/^   String() {$/;"	f	class:String
+String	proxy_lab.cpp	/^class String {$/;"	c	file:
+UnixFactory	factorLab.cpp	/^class UnixFactory : public Factory$/;"	c	file:
+VmsFactory	factorLab.cpp	/^class VmsFactory : public Factory$/;"	c	file:
+_array	bridge_lab.cpp	/^   int* _array;$/;"	m	class:Stack	file:
+_head	bridge_lab.cpp	/^    Node* _head;$/;"	m	class:ListImp	file:
+_next	bridge_lab.cpp	/^   Node*  _next;$/;"	m	class:Node	file:
+_size	bridge_lab.cpp	/^   int  _size;$/;"	m	class:Stack	file:
+_sp	bridge_lab.cpp	/^   int  _sp;$/;"	m	class:Stack	file:
+_value	bridge_lab.cpp	/^   int    _value; $/;"	m	class:Node	file:
+accept	chain_lab.cpp	/^   int accept( int coin ) {$/;"	f	class:Slot
+ack	state_lab.cpp	/^enum Message { on, off, ack };$/;"	e	enum:Message	file:
+action	command_lab.cpp	/^   Action  action;$/;"	m	struct:Command	file:
+add	composite_lab.cpp	/^   void     add( Composite* c )                       { children[total++] = c; }$/;"	f	class:Composite
+add	iterator_lab.cpp	/^   void add( int in ) {$/;"	f	class:BST
+add	iterator_lab.cpp	/^   void add( int in, Node* current ) {$/;"	f	class:BST	file:
+add	visitor_lab.cpp	/^   virtual void      add( Component* )  { };$/;"	f	class:Component
+add	visitor_lab.cpp	/^   void     add( Component* ele ) { array[index++] = ele; }$/;"	f	class:Composite
+add_	command_lab.cpp	/^   int       add_;$/;"	m	class:Queue	file:
+array	adapter_lab.cpp	/^   int*  array;$/;"	m	struct:StackStruct	file:
+array	visitor_lab.cpp	/^   Component*  array[20];$/;"	m	class:Composite	file:
+array_	command_lab.cpp	/^   Command*  array_[SIZE];$/;"	m	class:Queue	file:
+cat	visitor_lab.cpp	/^   void cat( Component* node ) {$/;"	f	class:Client
+children	composite_lab.cpp	/^   Composite*  children[99];$/;"	m	class:Composite	file:
+cleanUp	adapter_lab.cpp	/^static void cleanUp( Stack* s ) {$/;"	f	file:
+compType	visitor_lab.cpp	/^enum compType { PrimitiveT, LinkT, CompositeT };$/;"	g	file:
+compress	command_lab.cpp	/^enum Action { unarchive, transfer, compress };$/;"	e	enum:Action	file:
+compress	command_lab.cpp	/^   void compress()  { cout << "compress "  << name_ << endl; }$/;"	f	class:File
+count_	chain_lab.cpp	/^   int  count_;$/;"	m	class:Slot	file:
+createNtPipe	factory_lab.cpp	/^void createNtPipe()      { cout << "createNtPipe:" << endl; }$/;"	f
+createNtSocket	factory_lab.cpp	/^void createNtSocket()    { cout << "createNtSocket:" << endl; }$/;"	f
+createNtThread	factory_lab.cpp	/^void createNtThread()    { cout << "createNtThread:" << endl; }$/;"	f
+createPipe	factorLab.cpp	/^        void createPipe()      { cout << "createNtPipe:" << endl; }$/;"	f	class:NtFactory
+createPipe	factorLab.cpp	/^        void createPipe()     { cout << "createVmsPipe:" << endl; }$/;"	f	class:VmsFactory
+createPipe	factorLab.cpp	/^        void createPipe()    { cout << "createUnixPipe:" << endl; }$/;"	f	class:UnixFactory
+createSocket	factorLab.cpp	/^        void createSocket()    { cout << "createNtSocket:" << endl; }$/;"	f	class:NtFactory
+createSocket	factorLab.cpp	/^        void createSocket()   { cout << "createVmsSocket:" << endl; }$/;"	f	class:VmsFactory
+createSocket	factorLab.cpp	/^        void createSocket()  { cout << "createUnixSocket:" << endl; }$/;"	f	class:UnixFactory
+createThread	factorLab.cpp	/^        void createThread()   { cout << "createVmsThread:" << endl; }$/;"	f	class:NtFactory
+createThread	factorLab.cpp	/^        void createThread()   { cout << "createVmsThread:" << endl; }$/;"	f	class:VmsFactory
+createThread	factorLab.cpp	/^        void createThread()  { cout << "createUnixThread:" << endl; }$/;"	f	class:UnixFactory
+createUnixPipe	factory_lab.cpp	/^void createUnixPipe()    { cout << "createUnixPipe:" << endl; }$/;"	f
+createUnixSocket	factory_lab.cpp	/^void createUnixSocket()  { cout << "createUnixSocket:" << endl; }$/;"	f
+createUnixThread	factory_lab.cpp	/^void createUnixThread()  { cout << "createUnixThread:" << endl; }$/;"	f
+createVmsPipe	factory_lab.cpp	/^void createVmsPipe()     { cout << "createVmsPipe:" << endl; }$/;"	f
+createVmsSocket	factory_lab.cpp	/^void createVmsSocket()   { cout << "createVmsSocket:" << endl; }$/;"	f
+createVmsThread	factory_lab.cpp	/^void createVmsThread()   { cout << "createVmsThread:" << endl; }$/;"	f
+currentState	state_lab.cpp	/^State        currentState;$/;"	v
+deque	command_lab.cpp	/^   Command* deque() {$/;"	f	class:Queue
+doOneLaneIPC	factory_lab.cpp	/^void doOneLaneIPC() {$/;"	f
+doParallelProcessing	factory_lab.cpp	/^void doParallelProcessing() {$/;"	f
+doTwoLaneIPC	factory_lab.cpp	/^void doTwoLaneIPC() {$/;"	f
+enque	command_lab.cpp	/^   void enque( Command* c ) {$/;"	f	class:Queue
+evaluate	decorator_lab.cpp	/^   int evaluate() {$/;"	f	class:HighCut
+evaluate	decorator_lab.cpp	/^   int evaluate() {$/;"	f	class:LowCut
+evaluate	decorator_lab.cpp	/^   int evaluate() {$/;"	f	class:MiddlePass
+evaluate	decorator_lab.cpp	/^   virtual int evaluate() {$/;"	f	class:Function
+getCount	chain_lab.cpp	/^   int getCount() {$/;"	f	class:Slot
+getNext	bridge_lab.cpp	/^Node* Node::getNext()  { return _next; }$/;"	f	class:Node
+getSubject	visitor_lab.cpp	/^   Component& getSubject()                    { return linkElement; }$/;"	f	class:Link
+getValue	bridge_lab.cpp	/^int   Node::getValue() { return _value; }$/;"	f	class:Node
+identity	visitor_lab.cpp	/^   int identity;$/;"	m	class:Primitive	file:
+index	visitor_lab.cpp	/^   int         index;$/;"	m	class:Composite	file:
+initialize	adapter_lab.cpp	/^static void initialize( Stack* s, int size ) {$/;"	f	file:
+input	command_lab.cpp	/^Command* input[8] = {$/;"	v
+interact	strategy_lab.cpp	/^void DataEntry::interact() {$/;"	f	class:DataEntry
+isEmpty	adapter_lab.cpp	/^static int isEmpty( Stack* s ) {$/;"	f	file:
+isEmpty	bridge_lab.cpp	/^int ListImp::isEmpty() { return _head ? 0 : 1; }$/;"	f	class:ListImp
+isEmpty	bridge_lab.cpp	/^int Stack::isEmpty() { return _sp == 0 ? 1 : 0; }$/;"	f	class:Stack
+isFull	adapter_lab.cpp	/^static int isFull( Stack* s ) {$/;"	f	file:
+isFull	bridge_lab.cpp	/^int ListImp::isFull()  { return 0; }$/;"	f	class:ListImp
+isFull	bridge_lab.cpp	/^int Stack::isFull()  { return _sp == _size ? 1 : 0; }$/;"	f	class:Stack
+isdigit	strategy_lab.cpp	/^int isdigit( char ch ) { return (ch >= '0' && ch <= '9') ? 1 : 0; }$/;"	f
+islower	strategy_lab.cpp	/^int islower( char ch ) { return (ch >= 'a' && ch <= 'z') ? 1 : 0; }$/;"	f
+isupper	strategy_lab.cpp	/^int isupper( char ch ) { return (ch >= 'A' && ch <= 'Z') ? 1 : 0; }$/;"	f
+left	iterator_lab.cpp	/^   int value;  Node* left;  Node* right;$/;"	m	struct:Node	file:
+linkElement	visitor_lab.cpp	/^   Component& linkElement;$/;"	m	class:Link	file:
+main	bridge_lab.cpp	/^void main ( void ) {$/;"	f
+main	chain_lab.cpp	/^void main( void )$/;"	f
+main	command_lab.cpp	/^void main( void )$/;"	f
+main	composite_lab.cpp	/^void main( void ) {$/;"	f
+main	decorator_lab.cpp	/^void main( void )$/;"	f
+main	factorLab.cpp	/^int main(int argc, char **argc)$/;"	f
+main	factoryMethod_lab.cpp	/^void main( void ) {$/;"	f
+main	factory_lab.cpp	/^void main( void ) {$/;"	f
+main	iterator_lab.cpp	/^void main( void ) {$/;"	f
+main	proxy_lab.cpp	/^void main( void ) {$/;"	f
+main	state_lab.cpp	/^void main( void ) {$/;"	f
+main	strategy_lab.cpp	/^void main( void ) {$/;"	f
+main	visitor_lab.cpp	/^void main( void ) {$/;"	f
+maximum_	decorator_lab.cpp	/^   int  maximum_;$/;"	m	class:HighCut	file:
+messageArray	state_lab.cpp	/^Message      messageArray[10] = { on,off,off,ack,ack,ack,ack,on,off,off };$/;"	v
+minimum_	decorator_lab.cpp	/^   int  minimum_;$/;"	m	class:LowCut	file:
+name_	command_lab.cpp	/^   char  name_[30];$/;"	m	class:File	file:
+off	state_lab.cpp	/^enum Message { on, off, ack };$/;"	e	enum:Message	file:
+on	state_lab.cpp	/^enum Message { on, off, ack };$/;"	e	enum:Message	file:
+operator <<	iterator_lab.cpp	/^   friend ostream& operator<< ( ostream& os, Node& n ) { return os << n.value; }$/;"	f	struct:Node
+operator <<	proxy_lab.cpp	/^ostream& operator << ( ostream& os, String& str ) { return os << str.str_; }$/;"	f
+operator =	proxy_lab.cpp	/^   String& operator= ( String& rhs ) {$/;"	f	class:String
+party	factoryMethod_lab.cpp	/^   char party[20];$/;"	m	class:FederalFraudvillian	file:
+partyLine	factoryMethod_lab.cpp	/^   void partyLine() { cout << party << ": hear no evil" << endl; }$/;"	f	class:MinorityPartyCongressPerson
+partyLine	factoryMethod_lab.cpp	/^   void partyLine() { cout << party << ": see no evil" << endl; }$/;"	f	class:AttorneyGeneral
+partyLine	factoryMethod_lab.cpp	/^   void partyLine() { cout << party << ": speak no evil" << endl; }$/;"	f	class:President
+pickCoin	chain_lab.cpp	/^int pickCoin()$/;"	f
+pop	adapter_lab.cpp	/^static int pop( Stack* s ) {$/;"	f	file:
+pop	bridge_lab.cpp	/^int ListImp::pop() {$/;"	f	class:ListImp
+pop	bridge_lab.cpp	/^int Stack::pop() {$/;"	f	class:Stack
+push	adapter_lab.cpp	/^static void push( Stack* s, int item ) {$/;"	f	file:
+push	bridge_lab.cpp	/^void ListImp::push( int val ) {$/;"	f	class:ListImp
+push	bridge_lab.cpp	/^void Stack::push( int val ) {$/;"	f	class:Stack
+receiver	command_lab.cpp	/^   File*   receiver;$/;"	m	struct:Command	file:
+remove_	command_lab.cpp	/^   int       remove_;$/;"	m	class:Queue	file:
+reportType	composite_lab.cpp	/^   NodeType reportType()                              { return type; }$/;"	f	class:Composite
+reportType	composite_lab.cpp	/^   NodeType reportType()                          { return type; }$/;"	f	class:Primitive
+returnType	visitor_lab.cpp	/^   compType   returnType()                    { return LinkT; }$/;"	f	class:Link
+returnType	visitor_lab.cpp	/^   compType returnType()          { return CompositeT; }$/;"	f	class:Composite
+returnType	visitor_lab.cpp	/^   compType returnType() { return PrimitiveT; }$/;"	f	class:Primitive
+right	iterator_lab.cpp	/^   int value;  Node* left;  Node* right;$/;"	m	struct:Node	file:
+root	iterator_lab.cpp	/^   Node*  root;$/;"	m	class:BST	file:
+setValidationType	strategy_lab.cpp	/^   void setValidationType( char ch ) { type = ch; }$/;"	f	class:DataEntry
+size	adapter_lab.cpp	/^   int   size;$/;"	m	struct:StackStruct	file:
+size	iterator_lab.cpp	/^   int    size;$/;"	m	class:BST	file:
+sp	adapter_lab.cpp	/^   int   sp;$/;"	m	struct:StackStruct	file:
+str_	proxy_lab.cpp	/^   char*  str_;$/;"	m	class:String	file:
+streamOut	visitor_lab.cpp	/^   void       streamOut()                     { linkElement.streamOut(); }$/;"	f	class:Link
+streamOut	visitor_lab.cpp	/^   void     streamOut()  { cout << identity << " "; }$/;"	f	class:Primitive
+streamOut	visitor_lab.cpp	/^   void     streamOut() {$/;"	f	class:Composite
+total	composite_lab.cpp	/^   int         total;$/;"	m	class:Composite	file:
+transfer	command_lab.cpp	/^enum Action { unarchive, transfer, compress };$/;"	e	enum:Action	file:
+transfer	command_lab.cpp	/^   void transfer()  { cout << "transfer "  << name_ << endl; }$/;"	f	class:File
+traverse	composite_lab.cpp	/^   void     traverse()                            { cout << value << " "; }$/;"	f	class:Primitive
+traverse	composite_lab.cpp	/^   void traverse() {$/;"	f	class:Composite
+traverse	iterator_lab.cpp	/^   void traverse( Node* current ) {$/;"	f	class:BST	file:
+traverse	iterator_lab.cpp	/^   void traverse() { traverse( root ); }$/;"	f	class:BST
+type	composite_lab.cpp	/^   NodeType    type;$/;"	m	class:Composite	file:
+type	composite_lab.cpp	/^   NodeType  type;$/;"	m	class:Primitive	file:
+type	strategy_lab.cpp	/^   char type;$/;"	m	class:DataEntry	file:
+unarchive	command_lab.cpp	/^enum Action { unarchive, transfer, compress };$/;"	e	enum:Action	file:
+unarchive	command_lab.cpp	/^   void unarchive() { cout << "unarchive " << name_ << endl; }$/;"	f	class:File
+validate	strategy_lab.cpp	/^int DataEntry::validate( char* input ) {$/;"	f	class:DataEntry
+value	composite_lab.cpp	/^   int         value;$/;"	m	class:Composite	file:
+value	composite_lab.cpp	/^   int       value;$/;"	m	class:Primitive	file:
+value	iterator_lab.cpp	/^   int value;  Node* left;  Node* right;$/;"	m	struct:Node	file:
+value_	chain_lab.cpp	/^   int  value_;$/;"	m	class:Slot	file:
+wc	visitor_lab.cpp	/^   void wc( Component* node ) {$/;"	f	class:Client
+~ListImp	bridge_lab.cpp	/^ListImp::~ListImp() {$/;"	f	class:ListImp
+~Stack	bridge_lab.cpp	/^Stack::~Stack() { delete _array; }$/;"	f	class:Stack
+~String	proxy_lab.cpp	/^   ~String() {$/;"	f	class:String
